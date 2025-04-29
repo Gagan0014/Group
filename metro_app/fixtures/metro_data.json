@@ -1,0 +1,1356 @@
+[
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 1,
+    "fields": {
+      "name": "Red line",
+      "color": "red",
+      "code": "RL"
+    }
+  },
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 2,
+    "fields": {
+      "name": "Yellow line",
+      "color": "yellow",
+      "code": "YL"
+    }
+  },
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 3,
+    "fields": {
+      "name": "Blue Line",
+      "color": "blue",
+      "code": "BL"
+    }
+  },
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 4,
+    "fields": {
+      "name": "Green Line",
+      "color": "green",
+      "code": "GL"
+    }
+  },
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 5,
+    "fields": {
+      "name": "Violet Line",
+      "color": "violet",
+      "code": "VL"
+    }
+  },
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 6,
+    "fields": {
+      "name": "Pink Line",
+      "color": "pink",
+      "code": "PL"
+    }
+  },
+  {
+    "model": "metro_app.MetroLine",
+    "pk": 7,
+    "fields": {
+      "name": "Magenta Line",
+      "color": "magenta",
+      "code": "ML"
+    }
+  },
+{
+    "model": "metro_app.Station",
+    "pk": 1,
+    "fields": {
+      "name": "Dilshad Garden",
+      "code": "DG",
+      "latitude": 28.6725,
+      "longitude": 77.322,
+      "lines": [1],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 2,
+    "fields": {
+      "name": "Jhilmil",
+      "code": "JHM",
+      "latitude": 28.6736,
+      "longitude": 77.3139,
+      "lines": [1],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 3,
+    "fields": {
+      "name": "Mansarovar Park",
+      "code": "MP",
+      "latitude": 28.6748,
+      "longitude": 77.3059,
+      "lines": [1],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 4,
+    "fields": {
+      "name": "Shahdara",
+      "code": "SD",
+      "latitude": 28.6738,
+      "longitude": 77.2917,
+      "lines": [1],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 5,
+    "fields": {
+      "name": "Welcome",
+      "code": "WC",
+      "latitude": 28.6719,
+      "longitude": 77.2789,
+      "lines": [1, 6],
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 6,
+    "fields": {
+      "name": "Seelampur",
+      "code": "SP",
+      "latitude": 28.6695,
+      "longitude": 77.2659,
+      "lines": [1],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 7,
+    "fields": {
+      "name": "Shastri Park",
+      "code": "SKP",
+      "latitude": 28.6674,
+      "longitude": 77.25,
+      "lines": [1],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 8,
+    "fields": {
+      "name": "Kashmere Gate",
+      "code": "KG",
+      "latitude": 28.6676,
+      "longitude": 77.228,
+      "lines": [1, 2, 5],
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 9,
+    "fields": {
+      "name": "Chandni Chowk",
+      "code": "CC",
+      "latitude": 28.6586,
+      "longitude": 77.2307,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 10,
+    "fields": {
+      "name": "Chawri Bazar",
+      "code": "CB",
+      "latitude": 28.649,
+      "longitude": 77.2262,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 11,
+    "fields": {
+      "name": "New Delhi",
+      "code": "NDLS",
+      "latitude": 28.6425,
+      "longitude": 77.2208,
+      "lines": [2, 5],
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 12,
+    "fields": {
+      "name": "Rajiv Chowk",
+      "code": "RJV",
+      "latitude": 28.6325,
+      "longitude": 77.2192,
+      "lines": [2, 3],
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 13,
+    "fields": {
+      "name": "Patel Chowk",
+      "code": "PC",
+      "latitude": 28.6244,
+      "longitude": 77.2128,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 14,
+    "fields": {
+      "name": "Central Secretariat",
+      "code": "CST",
+      "latitude": 28.6159,
+      "longitude": 77.2119,
+      "lines": [2, 5],
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 15,
+    "fields": {
+      "name": "Udyog Bhawan",
+      "code": "UB",
+      "latitude": 28.611,
+      "longitude": 77.2121,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 16,
+    "fields": {
+      "name": "Lok Kalyan Marg",
+      "code": "LKM",
+      "latitude": 28.5974,
+      "longitude": 77.2103,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 17,
+    "fields": {
+      "name": "Jor Bagh",
+      "code": "JB",
+      "latitude": 28.5887,
+      "longitude": 77.2128,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 18,
+    "fields": {
+      "name": "INA",
+      "code": "INA",
+      "latitude": 28.5751,
+      "longitude": 77.2072,
+      "lines": [2, 6],
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 19,
+    "fields": {
+      "name": "AIIMS",
+      "code": "AIIMS",
+      "latitude": 28.569,
+      "longitude": 77.2091,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Station",
+    "pk": 20,
+    "fields": {
+      "name": "Green Park",
+      "code": "GP",
+      "latitude": 28.56,
+      "longitude": 77.2067,
+      "lines": [2],
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 1,
+    "fields": {
+      "from_station": 1,
+      "to_station": 2,
+      "line": 1,
+      "distance": 1.2,
+      "travel_time": 3
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 2,
+    "fields": {
+      "from_station": 2,
+      "to_station": 3,
+      "line": 1,
+      "distance": 0.9,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 3,
+    "fields": {
+      "from_station": 3,
+      "to_station": 4,
+      "line": 1,
+      "distance": 1.3,
+      "travel_time": 3
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 4,
+    "fields": {
+      "from_station": 4,
+      "to_station": 5,
+      "line": 1,
+      "distance": 1.4,
+      "travel_time": 3
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 5,
+    "fields": {
+      "from_station": 5,
+      "to_station": 6,
+      "line": 1,
+      "distance": 1.1,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 6,
+    "fields": {
+      "from_station": 6,
+      "to_station": 7,
+      "line": 1,
+      "distance": 1.6,
+      "travel_time": 3
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 7,
+    "fields": {
+      "from_station": 7,
+      "to_station": 8,
+      "line": 1,
+      "distance": 2.2,
+      "travel_time": 4
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 8,
+    "fields": {
+      "from_station": 8,
+      "to_station": 9,
+      "line": 2,
+      "distance": 1.1,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 9,
+    "fields": {
+      "from_station": 9,
+      "to_station": 10,
+      "line": 2,
+      "distance": 1.0,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 10,
+    "fields": {
+      "from_station": 10,
+      "to_station": 11,
+      "line": 2,
+      "distance": 0.8,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 11,
+    "fields": {
+      "from_station": 11,
+      "to_station": 12,
+      "line": 2,
+      "distance": 1.1,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 12,
+    "fields": {
+      "from_station": 12,
+      "to_station": 13,
+      "line": 2,
+      "distance": 1.0,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 13,
+    "fields": {
+      "from_station": 13,
+      "to_station": 14,
+      "line": 2,
+      "distance": 0.9,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 14,
+    "fields": {
+      "from_station": 14,
+      "to_station": 15,
+      "line": 2,
+      "distance": 0.8,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 15,
+    "fields": {
+      "from_station": 15,
+      "to_station": 16,
+      "line": 2,
+      "distance": 1.6,
+      "travel_time": 3
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 16,
+    "fields": {
+      "from_station": 16,
+      "to_station": 17,
+      "line": 2,
+      "distance": 1.2,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 17,
+    "fields": {
+      "from_station": 17,
+      "to_station": 18,
+      "line": 2,
+      "distance": 1.3,
+      "travel_time": 3
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 18,
+    "fields": {
+      "from_station": 18,
+      "to_station": 19,
+      "line": 2,
+      "distance": 0.8,
+      "travel_time": 2
+    }
+  },
+  {
+    "model": "metro_app.Connection",
+    "pk": 19,
+    "fields": {
+      "from_station": 19,
+      "to_station": 20,
+      "line": 2,
+      "distance": 1.0,
+      "travel_time": 2
+    }
+  },
+    {
+      "model": "metro_app.Route",
+      "pk": 1,
+      "fields": {
+        "source": 1,
+        "destination": 12,
+        "total_distance": 12.7,
+        "total_time": 28,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:00:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 2,
+      "fields": {
+        "source": 12,
+        "destination": 1,
+        "total_distance": 12.7,
+        "total_time": 28,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:01:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 3,
+      "fields": {
+        "source": 1,
+        "destination": 20,
+        "total_distance": 21.2,
+        "total_time": 45,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:02:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 4,
+      "fields": {
+        "source": 20,
+        "destination": 1,
+        "total_distance": 21.2,
+        "total_time": 45,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:03:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 5,
+      "fields": {
+        "source": 5,
+        "destination": 18,
+        "total_distance": 14.8,
+        "total_time": 32,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:04:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 6,
+      "fields": {
+        "source": 18,
+        "destination": 5,
+        "total_distance": 14.8,
+        "total_time": 32,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:05:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 7,
+      "fields": {
+        "source": 8,
+        "destination": 14,
+        "total_distance": 5.9,
+        "total_time": 12,
+        "interchanges": 0,
+        "created_at": "2025-04-16T10:06:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 8,
+      "fields": {
+        "source": 14,
+        "destination": 8,
+        "total_distance": 5.9,
+        "total_time": 12,
+        "interchanges": 0,
+        "created_at": "2025-04-16T10:07:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 9,
+      "fields": {
+        "source": 11,
+        "destination": 19,
+        "total_distance": 5.6,
+        "total_time": 12,
+        "interchanges": 0,
+        "created_at": "2025-04-16T10:08:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 10,
+      "fields": {
+        "source": 19,
+        "destination": 11,
+        "total_distance": 5.6,
+        "total_time": 12,
+        "interchanges": 0,
+        "created_at": "2025-04-16T10:09:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 11,
+      "fields": {
+        "source": 2,
+        "destination": 17,
+        "total_distance": 17.5,
+        "total_time": 38,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:10:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 12,
+      "fields": {
+        "source": 17,
+        "destination": 2,
+        "total_distance": 17.5,
+        "total_time": 38,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:11:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 13,
+      "fields": {
+        "source": 3,
+        "destination": 16,
+        "total_distance": 16.4,
+        "total_time": 36,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:12:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 14,
+      "fields": {
+        "source": 16,
+        "destination": 3,
+        "total_distance": 16.4,
+        "total_time": 36,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:13:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 15,
+      "fields": {
+        "source": 4,
+        "destination": 15,
+        "total_distance": 15.1,
+        "total_time": 33,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:14:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 16,
+      "fields": {
+        "source": 15,
+        "destination": 4,
+        "total_distance": 15.1,
+        "total_time": 33,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:15:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 17,
+      "fields": {
+        "source": 6,
+        "destination": 13,
+        "total_distance": 13.0,
+        "total_time": 28,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:16:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 18,
+      "fields": {
+        "source": 13,
+        "destination": 6,
+        "total_distance": 13.0,
+        "total_time": 28,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:17:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 19,
+      "fields": {
+        "source": 7,
+        "destination": 12,
+        "total_distance": 9.4,
+        "total_time": 20,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:18:00Z"
+      }
+    },
+    {
+      "model": "metro_app.Route",
+      "pk": 20,
+      "fields": {
+        "source": 12,
+        "destination": 7,
+        "total_distance": 9.4,
+        "total_time": 20,
+        "interchanges": 1,
+        "created_at": "2025-04-16T10:19:00Z"
+      }
+    },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 1,
+    "fields": {
+      "route": 1,
+      "step_number": 1,
+      "from_station": 1,
+      "to_station": 2,
+      "line": 1,
+      "distance": 1.2,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 2,
+    "fields": {
+      "route": 1,
+      "step_number": 2,
+      "from_station": 2,
+      "to_station": 3,
+      "line": 1,
+      "distance": 0.9,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 3,
+    "fields": {
+      "route": 1,
+      "step_number": 3,
+      "from_station": 3,
+      "to_station": 4,
+      "line": 1,
+      "distance": 1.3,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 4,
+    "fields": {
+      "route": 1,
+      "step_number": 4,
+      "from_station": 4,
+      "to_station": 5,
+      "line": 1,
+      "distance": 1.4,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 5,
+    "fields": {
+      "route": 1,
+      "step_number": 5,
+      "from_station": 5,
+      "to_station": 6,
+      "line": 1,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 6,
+    "fields": {
+      "route": 1,
+      "step_number": 6,
+      "from_station": 6,
+      "to_station": 7,
+      "line": 1,
+      "distance": 1.6,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 7,
+    "fields": {
+      "route": 1,
+      "step_number": 7,
+      "from_station": 7,
+      "to_station": 8,
+      "line": 1,
+      "distance": 2.2,
+      "time": 4,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 8,
+    "fields": {
+      "route": 1,
+      "step_number": 8,
+      "from_station": 8,
+      "to_station": 8,
+      "line": 1,
+      "distance": 0.0,
+      "time": 2,
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 9,
+    "fields": {
+      "route": 1,
+      "step_number": 9,
+      "from_station": 8,
+      "to_station": 9,
+      "line": 2,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 10,
+    "fields": {
+      "route": 1,
+      "step_number": 10,
+      "from_station": 9,
+      "to_station": 10,
+      "line": 2,
+      "distance": 1.0,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 11,
+    "fields": {
+      "route": 1,
+      "step_number": 11,
+      "from_station": 10,
+      "to_station": 11,
+      "line": 2,
+      "distance": 0.8,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 12,
+    "fields": {
+      "route": 1,
+      "step_number": 12,
+      "from_station": 11,
+      "to_station": 12,
+      "line": 2,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 13,
+    "fields": {
+      "route": 2,
+      "step_number": 1,
+      "from_station": 5,
+      "to_station": 5,
+      "line": 1,
+      "distance": 0.0,
+      "time": 2,
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 14,
+    "fields": {
+      "route": 2,
+      "step_number": 2,
+      "from_station": 5,
+      "to_station": 8,
+      "line": 6,
+      "distance": 4.5,
+      "time": 9,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 15,
+    "fields": {
+      "route": 2,
+      "step_number": 3,
+      "from_station": 8,
+      "to_station": 8,
+      "line": 6,
+      "distance": 0.0,
+      "time": 3,
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 16,
+    "fields": {
+      "route": 2,
+      "step_number": 4,
+      "from_station": 8,
+      "to_station": 11,
+      "line": 2,
+      "distance": 2.9,
+      "time": 6,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 17,
+    "fields": {
+      "route": 2,
+      "step_number": 5,
+      "from_station": 11,
+      "to_station": 12,
+      "line": 2,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 18,
+    "fields": {
+      "route": 2,
+      "step_number": 6,
+      "from_station": 12,
+      "to_station": 13,
+      "line": 2,
+      "distance": 1.0,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 19,
+    "fields": {
+      "route": 2,
+      "step_number": 7,
+      "from_station": 13,
+      "to_station": 14,
+      "line": 2,
+      "distance": 0.9,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 20,
+    "fields": {
+      "route": 2,
+      "step_number": 8,
+      "from_station": 14,
+      "to_station": 15,
+      "line": 2,
+      "distance": 0.8,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 21,
+    "fields": {
+      "route": 2,
+      "step_number": 9,
+      "from_station": 15,
+      "to_station": 16,
+      "line": 2,
+      "distance": 1.6,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 22,
+    "fields": {
+      "route": 2,
+      "step_number": 10,
+      "from_station": 16,
+      "to_station": 17,
+      "line": 2,
+      "distance": 1.2,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 23,
+    "fields": {
+      "route": 2,
+      "step_number": 11,
+      "from_station": 17,
+      "to_station": 18,
+      "line": 2,
+      "distance": 1.3,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 24,
+    "fields": {
+      "route": 3,
+      "step_number": 1,
+      "from_station": 20,
+      "to_station": 19,
+      "line": 2,
+      "distance": 1.0,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 25,
+    "fields": {
+      "route": 3,
+      "step_number": 2,
+      "from_station": 19,
+      "to_station": 18,
+      "line": 2,
+      "distance": 0.8,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 26,
+    "fields": {
+      "route": 3,
+      "step_number": 3,
+      "from_station": 18,
+      "to_station": 17,
+      "line": 2,
+      "distance": 1.3,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 27,
+    "fields": {
+      "route": 3,
+      "step_number": 4,
+      "from_station": 17,
+      "to_station": 16,
+      "line": 2,
+      "distance": 1.2,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 28,
+    "fields": {
+      "route": 3,
+      "step_number": 5,
+      "from_station": 16,
+      "to_station": 15,
+      "line": 2,
+      "distance": 1.6,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 29,
+    "fields": {
+      "route": 3,
+      "step_number": 6,
+      "from_station": 15,
+      "to_station": 14,
+      "line": 2,
+      "distance": 0.8,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 30,
+    "fields": {
+      "route": 3,
+      "step_number": 7,
+      "from_station": 14,
+      "to_station": 13,
+      "line": 2,
+      "distance": 0.9,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 31,
+    "fields": {
+      "route": 3,
+      "step_number": 8,
+      "from_station": 13,
+      "to_station": 12,
+      "line": 2,
+      "distance": 1.0,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 32,
+    "fields": {
+      "route": 3,
+      "step_number": 9,
+      "from_station": 12,
+      "to_station": 11,
+      "line": 2,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 33,
+    "fields": {
+      "route": 3,
+      "step_number": 10,
+      "from_station": 11,
+      "to_station": 10,
+      "line": 2,
+      "distance": 0.8,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 34,
+    "fields": {
+      "route": 3,
+      "step_number": 11,
+      "from_station": 10,
+      "to_station": 9,
+      "line": 2,
+      "distance": 1.0,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 35,
+    "fields": {
+      "route": 3,
+      "step_number": 12,
+      "from_station": 9,
+      "to_station": 8,
+      "line": 2,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 36,
+    "fields": {
+      "route": 3,
+      "step_number": 13,
+      "from_station": 8,
+      "to_station": 8,
+      "line": 2,
+      "distance": 0.0,
+      "time": 3,
+      "is_interchange": true
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 37,
+    "fields": {
+      "route": 3,
+      "step_number": 14,
+      "from_station": 8,
+      "to_station": 7,
+      "line": 1,
+      "distance": 2.2,
+      "time": 4,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 38,
+    "fields": {
+      "route": 3,
+      "step_number": 15,
+      "from_station": 7,
+      "to_station": 6,
+      "line": 1,
+      "distance": 1.6,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 39,
+    "fields": {
+      "route": 3,
+      "step_number": 16,
+      "from_station": 6,
+      "to_station": 5,
+      "line": 1,
+      "distance": 1.1,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 40,
+    "fields": {
+      "route": 3,
+      "step_number": 17,
+      "from_station": 5,
+      "to_station": 4,
+      "line": 1,
+      "distance": 1.4,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 41,
+    "fields": {
+      "route": 3,
+      "step_number": 18,
+      "from_station": 4,
+      "to_station": 3,
+      "line": 1,
+      "distance": 1.3,
+      "time": 3,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 42,
+    "fields": {
+      "route": 3,
+      "step_number": 19,
+      "from_station": 3,
+      "to_station": 2,
+      "line": 1,
+      "distance": 0.9,
+      "time": 2,
+      "is_interchange": false
+    }
+  },
+  {
+    "model": "metro_app.RouteStep",
+    "pk": 43,
+    "fields": {
+      "route": 3,
+      "step_number": 20,
+      "from_station": 2,
+      "to_station": 1,
+      "line": 1,
+      "distance": 1.2,
+      "time": 3,
+      "is_interchange": false
+    }
+  }
+]    
