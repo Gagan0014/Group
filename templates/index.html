@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Metro Route Planner</title>
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="{% static 'images/img8.png' %}" alt="Delhi Metro Logo" style="width: 100px; height: auto; border-radius: 50px;">
+                <h1>Welcome to Delhi Metro</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Plan Journey</a></li>
+                    <li><a href="#">Metro Map</a></li>
+                    <li><a href="#">Fare Calculator</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="search-panel">
+                    <h2>Plan Your Journey</h2>
+                    <form id="route-form">
+                        <div class="form-group">
+                            <label for="source">Starting Station</label>
+                            <input type="text" id="source" placeholder="Enter source station" autocomplete="on">
+                            <div class="station-suggestions" id="source-suggestions"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <input type="text" id="destination" placeholder="Enter destination station" autocomplete="on">
+                            <div class="station-suggestions" id="destination-suggestions"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="priority">Optimize for</label>
+                            <select id="priority">
+                                <option value="time">Fastest Route</option>
+                                <option value="distance">Shortest Distance</option>
+                                <option value="interchanges">Minimum Interchanges</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Find Route</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="route-results" id="route-results" style="display: none;">
+            <div class="container">
+                <div class="route-summary">
+                    <h3>Route Summary</h3>
+                    <div class="route-info">
+                        <div class="info-item">
+                            <span class="label">Total Time:</span>
+                            <span class="value" id="total-time">-- min</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Distance:</span>
+                            <span class="value" id="total-distance">-- km</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Interchanges:</span>
+                            <span class="value" id="interchanges">--</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Fare:</span>
+                            <span class="value" id="fare">₹ --</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-details">
+                    <h3>Journey Details</h3>
+                    <div class="route-steps" id="route-steps">
+                        <!-- Steps will be added dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="{% static 'js/main.js' %}"></script>
+   <!-- <script src="{% static 'js/map.js' %}"></script> -->
+</body>
+</html>
